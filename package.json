@@ -2,7 +2,7 @@
     "name": "tree-sitter-wgsl",
     "author": "Mehmet Oguz Derin <mehmetoguzderin@mehmetoguzderin.com>",
     "license": "CC0-1.0",
-    "version": "0.0.4",
+    "version": "0.0.5",
     "keywords": [
         "incremental",
         "parsing",
@@ -16,7 +16,7 @@
         "nan": "^2.15.0"
     },
     "devDependencies": {
-        "tree-sitter-cli": "^0.20.0"
+        "tree-sitter-cli": "^0.20.6"
     },
     "main": "bindings/node"
 }

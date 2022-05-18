@@ -1,7 +1,7 @@
 [package]
 name = "tree-sitter-wgsl"
 description = "wgsl grammar for the tree-sitter parsing library"
-version = "0.0.4"
+version = "0.0.5"
 authors = ["Mehmet Oguz Derin <mehmetoguzderin@mehmetoguzderin.com>"]
 keywords = ["incremental", "parsing", "wgsl"]
 categories = ["parsing", "text-editors"]
@@ -21,7 +21,7 @@ include = [
 path = "bindings/rust/lib.rs"
 
 [dependencies]
-tree-sitter = "0.20.2"
+tree-sitter = "0.20.6"
 
 [build-dependencies]
-cc = "*"
+cc = "1.0.73"
